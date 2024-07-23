@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    Margin: 0px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Playwrite DE Grund", cursive;
+    background-color: red;
+
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: medium;
+    border-radius: 20px;
+}
+
+.container__s1 {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: solid black 1px;
+    border-radius: 25px;
+    width: 205px;
+    height: 250px;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+
+.container__s2 {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: solid black 1px;
+    border-radius: 25px;
+    width: 205px;
+    justify-content: center;
+    height: 250px;
+    flex-direction: column;
+
+
+
+}
+
+.container__s3 {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: solid black 1px;
+    border-radius: 25px;
+    width: 205px;
+    justify-content: center;
+    height: 250px;
+    flex-direction: column;
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.container__s1__desc,
+.container__s2__desc,
+.container__s3__desc {
+
+    border: solid blanchedalmond 2px;
+    height: 150px;
+    width: 200px;
+    text-align: left;
+    border-radius: 10px;
+}
